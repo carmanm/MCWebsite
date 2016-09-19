@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Matt Carman Portfolio</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href = "iconM.png" rel="icon" type="image/gif">
+	<script src="jquery-1.12.3.js"></script>
+	<script type = "text/javascript" src = "Script.js"></script>
+	<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="lightbox.js"></script>
+</head>
+<body>
+	
+	
+	<header>
+	  <div class="banner">
+	    <div class="title">
+		<h1>Matt Carman</h1>
+		<p style="font-size:20px">Software Developer, Portland OR</p>
+		</div>
+		
+		  <span id="menu">
+			<li class="list1">Home</li>		
+			<li class="list2">Projects</li>			
+			<li class="list3">About</li>
+			<a href="#" onclick = "contactClick();"><li class="list4">Contact</li></a>
+		  </span>
+			<div id="dropDownProjects">
+					
+				<li id="item1"><a href="https://github.com/carmanm?language=python&tab=repositories">Python</a></li>
+					
+				<li id="item2"><a href="https://github.com/carmanm?language=c%23&tab=repositories">C#</a></li>
+					
+				<li id="item3"><a href="https://github.com/carmanm">GitHub</a></li>
+					
+					
+			</div>
+			<div id="dropDownProjects2">
+					
+				<li id="thing1"><a href = "https://github.com/carmanm">Projects</a></li>
+					
+				
+					 
+				<li id="thing3"><a href="#" onclick = "contactClick();">Contact</a></li>
+					
+					
+			</div>
+		</div>
+	</header>	
+   
+	
+		<div class="line-separator"></div>  
+	
+				<a href="Portland_and_Mt_Hood.jpg" rel="lightbox" title="Portland"><img id="img1" src="Portland_and_Mt_Hood.jpg" alt="Portland and Mt. Hood" style="width: 300; 
+				height:405px; vertical-align: bottom;"></a>
+				
+		<div class="line-separator"></div>  
+	
+	<div class="imageborder"> 
+			<a href="youtube.com">
+			<img id="img2" 
+			src="linkedin.png"  
+			onmouseover="this.src='linkedin2.png'" 
+			onmouseout="this.src='linkedin.png'">
+			</a>
+			
+			<a href="https://github.com/carmanm">
+			<img id="img3" 
+			src="github.png" 
+			onmouseover="this.src='github2.png'" 
+			onmouseout="this.src='github.png'"			
+			></a>
+			
+			<a href="youtube.com">
+			<img id="img4" 
+			src="facebook.png" 	
+			onmouseover="this.src='facebook2.png'" 
+			onmouseout="this.src='facebook.png'"			
+			></a>
+		
+	</div>
+		<div class="line-separator"></div>  
+
+	<div class="spacer"> </div>
+	
+	<div class="line-separator"></div>  
+	
+	<div class="spacer2"> 
+		<div id="contactDiv">
+	
+		<h2 style="text-decoration: underline;">Contact Me!</h2>
+		<br />
+		
+		<p>Name:</p>
+		<input type="text" id="contactName">
+		
+		<p>Company:</p>
+		<input type="text" id="contactCompany">
+		
+		<p>Message:</p>
+		<textarea rows="10" cols="100" id="contactMessage"></textarea>
+		<br />
+		<br />
+		<button id="contact" onclick="sendMail();">Send</button>
+		</div>
+    
+	</div>
+	
+	<div class="line-separator"></div>  
+	
+	<div class="spacer" id="bottom"> </div>
+  
+
+ 
+
+		
+
+</body>
+</html>
+
